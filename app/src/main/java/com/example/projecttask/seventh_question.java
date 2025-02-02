@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link FragmentThree#newInstance} factory method to
+ * Use the {@link seventh_question#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FragmentThree extends Fragment {
+public class seventh_question extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class FragmentThree extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public FragmentThree() {
+    public seventh_question() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class FragmentThree extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentThree.
+     * @return A new instance of fragment seventh_question.
      */
     // TODO: Rename and change types and number of parameters
-    public static FragmentThree newInstance(String param1, String param2) {
-        FragmentThree fragment = new FragmentThree();
+    public static seventh_question newInstance(String param1, String param2) {
+        seventh_question fragment = new seventh_question();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class FragmentThree extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_three, container, false);
+        return inflater.inflate(R.layout.seventh_question, container, false);
     }
 }
